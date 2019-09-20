@@ -1,4 +1,4 @@
-// Pull in required dependencies
+// Dependencies
 var inquirer = require('inquirer');
 var mysql = require('mysql');
 
@@ -12,7 +12,7 @@ var connection = mysql.createConnection({
 
 	// Your password
 	password: '',
-	database: 'Bamazon'
+	database: 'bamazon'
 });
 
 // validateInput makes sure that the user is supplying only positive integers for their inputs
@@ -84,7 +84,7 @@ function promptUserPurchase() {
 					connection.query(updateQueryStr, function(err, data) {
 						if (err) throw err;
 
-						console.log('Your order has been placed! Your total is $' + productData.price * quantity);
+						console.log('Your oder has been placed! Your total is $' + productData.price * quantity);
 						console.log('Thank you for shopping with us!');
 						console.log("\n---------------------------------------------------------------------\n");
 
