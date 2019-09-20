@@ -6,5 +6,11 @@ In this activity, you'll be creating an Amazon-like storefront with the MySQL sk
 ## Instructions:
 In order to view items for purchse the user would open the terminal and type "node bamazonCustomer.js".
 
-![GitHub Logo](C:\Users\tanne\OneDrive\Pictures\Bamazon_Inventory)
-Format: ![Alt Text](url)
+Bamazon Inventory
+![Image of Bamazon Inventory](./images/Bamazon_Inventory.png)
+
+Ordered Product Success
+![Image of Successful Transaction](./images/Ordered_Product_Success.png)
+
+Ordered Product Fail
+![Image of Unsuccessful Transaction](./images/Ordered_Product_Failed.png)
